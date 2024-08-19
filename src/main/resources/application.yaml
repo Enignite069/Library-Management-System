@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3307/library_management?useUnicode=true&characterEncoding=UTF-8"
+    driverClassName: "com.mysql.cj.jdbc.Driver"
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  thymeleaf:
+    cache: false
+
+server:
+  port: 8080
+  servlet:
+    context-path: /library
+
+
+jwt:
+  signerKey: "at7zBNFnm0NKffWS4uO3asf/YqtMAsdAQddmlhxra6khjCXjgtDHHWEmrDyFPlvh"
+  valid-duration: 60
+  refreshable-duration: 120
+

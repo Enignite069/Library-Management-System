@@ -1,0 +1,35 @@
+2024-08-12 11:56:48,449 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.1.Final
+2024-08-12 11:56:48,505 INFO [main] org.springframework.boot.StartupInfoLogger: Starting LibraryManagementApplication using Java 21 with PID 5792 (D:\Code\Java\LibraryManagement\target\classes started by ADMIN in D:\Code\Java\LibraryManagement)
+2024-08-12 11:56:48,505 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.3.2, Spring v6.1.11
+2024-08-12 11:56:48,506 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2024-08-12 11:56:50,023 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-12 11:56:50,126 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 90 ms. Found 8 JPA repository interfaces.
+2024-08-12 11:56:50,996 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port 8080 (http)
+2024-08-12 11:56:51,013 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-12 11:56:51,017 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2024-08-12 11:56:51,017 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-12 11:56:51,134 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2024-08-12 11:56:51,136 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2580 ms
+2024-08-12 11:56:51,372 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-12 11:56:51,449 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-12 11:56:51,488 INFO [main] org.hibernate.cache.internal.RegionFactoryInitiator: HHH000026: Second-level cache disabled
+2024-08-12 11:56:51,895 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-12 11:56:51,922 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2024-08-12 11:56:52,352 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79273a4f
+2024-08-12 11:56:52,355 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2024-08-12 11:56:53,556 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-12 11:56:53,659 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 11:56:54,380 INFO [main] com.library_management.configuration.identity.ApplicationInitConfig: Initializing application................99%
+2024-08-12 11:56:54,546 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-12 11:56:55,353 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2024-08-12 11:56:55,373 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port 8080 (http) with context path '/library'
+2024-08-12 11:56:55,383 INFO [main] org.springframework.boot.StartupInfoLogger: Started LibraryManagementApplication in 7.403 seconds (process running for 8.208)
+2024-08-12 11:56:55,590 INFO [main] com.library_management.configuration.identity.ApplicationInitConfig: Application initialization completed .....
+2024-08-12 11:57:52,702 INFO [http-nio-8080-exec-2] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-12 11:57:52,703 INFO [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2024-08-12 11:57:52,704 INFO [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2024-08-12 11:57:52,869 INFO [http-nio-8080-exec-2] com.library_management.controller.identity.UserController: Controller: Creating User..........
+2024-08-12 11:57:52,871 INFO [http-nio-8080-exec-2] com.library_management.service.identity.UserService: Service: Create User
+2024-08-12 11:58:16,563 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-12 11:58:16,566 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2024-08-12 11:58:16,583 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
