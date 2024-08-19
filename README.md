@@ -8,4 +8,4 @@ This system is made by:
 - MySQL Database
 ## How to run
 * Step 1: Refresh Maven Project to install all dependencies of the project
-* Step 2: 
+* Step 2: Config the application to run in file application.yml ![Application Config](/set up/ConfigApplication.png)
