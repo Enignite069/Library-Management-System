@@ -32,3 +32,6 @@
 2024-08-19 09:16:41,251 INFO [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
 2024-08-19 09:16:41,253 INFO [http-nio-8080-exec-2] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 2 ms
 2024-08-19 09:16:42,653 INFO [http-nio-8080-exec-9] org.springdoc.api.AbstractOpenApiResource: Init duration for springdoc-openapi is: 654 ms
+2024-08-19 09:25:36,984 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-19 09:25:36,993 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2024-08-19 09:25:37,022 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
