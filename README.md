@@ -14,5 +14,5 @@ This system is made by:
 * Step 4: Run the application and the API document will appear in http://localhost:8080/library/swagger-ui/index.html
 ## In App Running
 Most of the function will be locked and need to authorize to unlock. The default admin account will be created at the first time
-system has run. This accout can be found at file **/configuration/identity/ApplicationInitConfig.java**\. You can change this to whatever you want
+system has run. This accout can be found at file **/configuration/identity/ApplicationInitConfig.java**. You can change this to whatever you want\
 ![Default Account](https://github.com/Enignite069/Library-Management-System/blob/main/set%20up/DefaultAdminAccount.png)
