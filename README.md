@@ -8,5 +8,7 @@ This system is made by:
 - MySQL Database
 ## How to run
 * Step 1: Refresh Maven Project to install all dependencies of the project
-* Step 2: Config the application to run in file application.yml
-* ![Application Config]((https://github.com/Enignite069/Library-Management-System/blob/main/set%20up/ConfigApplication.png))
+* Step 2: Config the application to run in file application.yml (database port,...)
+![Application Config](https://github.com/Enignite069/Library-Management-System/blob/main/set%20up/ConfigApplication.png)
+* Step 3: Create blank database with the following name in database config path.
+* Step 4: Run the application and the API document will appear in http://localhost:8080/library/swagger-ui/index.html
