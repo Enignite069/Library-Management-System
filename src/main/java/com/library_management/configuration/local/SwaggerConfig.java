@@ -14,15 +14,15 @@ import io.swagger.v3.oas.annotations.servers.Server;
         info = @Info(
                 contact = @Contact(
                         name = "Hung Anh",
-                        email = "https://mail.google.com/mail/?view=cm&fs=1&to=hunganhd.work@gmail.com",
+                        email = "hunganhd.work@gmail.com",
                         url = "https://www.linkedin.com/in/hung-anh-duong-546998250/"
                 ),
                 description = "Library Management API Documentation",
                 title = "Library Management",
                 version = "1.0.0",
                 license = @License(
-                        name = "Name of the License",
-                        url = "https://license.com"
+                        name = "License",
+                        url = ""
                 ),
                 termsOfService = "Term of service"
         ),
